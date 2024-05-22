@@ -14,11 +14,11 @@ namespace Menu.Data
 		{
 			modelBuilder.Entity<SastojakJela>().HasKey(di => new
 			{						  
-				di.JeloId,			  
-				di.SastojakId		  
+				di.JelaId,			  
+				di.SastojciId		  
 			});						  
-			modelBuilder.Entity<SastojakJela>().HasOne(j => j.Jelo).WithMany(di => di.SastojakJela).HasForeignKey(d => d.JeloId);
-			modelBuilder.Entity<SastojakJela>().HasOne(s => s.Sastojak).WithMany(di => di.SastojakJela).HasForeignKey(d => d.JeloId);
+			modelBuilder.Entity<SastojakJela>().HasOne(j => j.Jelo).WithMany(di => di.SastojakJela).HasForeignKey(d => d.JelaId);
+			modelBuilder.Entity<SastojakJela>().HasOne(s => s.Sastojak).WithMany(di => di.SastojakJela).HasForeignKey(d => d.JelaId);
 
 			modelBuilder.Entity<Jelo>().HasData(
 				new Jelo { Id = 1, Ime = "Margarita", Cena = 1500, ImageUrl = "https://images.prismic.io/eataly-us/ed3fcec7-7994-426d-a5e4-a24be5a95afd_pizza-recipe-main.jpg?auto=compress,format" });
@@ -29,8 +29,8 @@ namespace Menu.Data
 			   );
 
 			modelBuilder.Entity<SastojakJela>().HasData(
-			  new SastojakJela { JeloId = 1, SastojakId = 1 },
-			  new SastojakJela { JeloId = 1, SastojakId = 2 }
+			  new SastojakJela { JelaId = 1, SastojciId = 1 },
+			  new SastojakJela { JelaId = 1, SastojciId = 2 }
 			  );
 
 			base.OnModelCreating(modelBuilder);

@@ -2,11 +2,11 @@
 {
 	public class SastojakJela
 	{
-		public int JeloId { get; set; }
+		public int JelaId { get; set; }
 
 		public Jelo Jelo { get; set; }
 
-		public int SastojakId { get; set; }
+		public int SastojciId { get; set; }
 		public Sastojak Sastojak { get; set; }
 	}
 }

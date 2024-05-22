@@ -134,3 +134,4 @@ C:\Users\AMD\Desktop\menu\Menu\obj\Debug\net8.0\refint\Menu.dll
 C:\Users\AMD\Desktop\menu\Menu\obj\Debug\net8.0\Menu.pdb
 C:\Users\AMD\Desktop\menu\Menu\obj\Debug\net8.0\Menu.genruntimeconfig.cache
 C:\Users\AMD\Desktop\menu\Menu\obj\Debug\net8.0\ref\Menu.dll
+C:\Users\AMD\Desktop\menu\Menu\obj\Debug\net8.0\Menu.sourcelink.json

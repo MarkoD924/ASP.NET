@@ -1,0 +1,28 @@
+﻿@model Menu.Models.Jelo
+@{
+	ViewData["Title"] = "Details";
+}
+<div class="container">
+	<div class="d-flex justify-content-center">
+		<h3>@Model.Ime</h3>
+	</div>
+	<div class="d-flex justify-content-center">
+		<img src="@Model.ImageUrl" style="width:50%"/>
+	</div class>
+	<div class ="d-flex justify-content-center">
+		@Model.Cena.ToString("N2") Dinara
+	</div>
+	<div class ="d-flex justify-content-center">
+		Sastojci:
+		<ul>
+			@foreach(var item in Model.SastojakJela)
+			{
+				<li>
+					@item.Sastojak.Ime;
+				</li>
+			}
+		</ul>
+	</div>
+	<a class="btn btn-info" asp-action="Index">Nazad na Meni</a>
+
+</div>

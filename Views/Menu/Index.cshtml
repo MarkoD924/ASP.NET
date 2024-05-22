@@ -14,7 +14,10 @@
 					<img src="@item.ImageUrl" style="width:70%"/>
 				</div class>
 				<div class ="d-flex justify-content-center">
-						@item.Cena.ToString("N2") Dinara
+					@item.Cena.ToString("N2") Dinara
+				</div>
+				<div class ="d-flex justify-content-center">
+					<a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalji</a>
 				</div>
 			</div>
 		}

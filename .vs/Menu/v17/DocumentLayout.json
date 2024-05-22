@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|c:\\users\\amd\\desktop\\menu\\menu\\models\\jelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|solutionrelative:models\\jelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|c:\\users\\amd\\desktop\\menu\\menu\\controllers\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|solutionrelative:controllers\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|c:\\users\\amd\\desktop\\menu\\menu\\models\\sastojak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|solutionrelative:models\\sastojak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|c:\\users\\amd\\desktop\\menu\\menu\\views\\menu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|solutionrelative:views\\menu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|c:\\users\\amd\\desktop\\menu\\menu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|c:\\users\\amd\\desktop\\menu\\menu\\models\\sastojakjela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|solutionrelative:models\\sastojakjela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|c:\\users\\amd\\desktop\\menu\\menu\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|solutionrelative:views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|c:\\users\\amd\\desktop\\menu\\menu\\controllers\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|solutionrelative:controllers\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1161E8F-7CF5-4926-A7F0-2F27F658A1AA}|Menu.csproj|c:\\users\\amd\\desktop\\menu\\menu\\data\\menucontekst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,42 +30,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MenuContekst.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Data\\MenuContekst.cs",
               "RelativeDocumentMoniker": "Data\\MenuContekst.cs",
               "ToolTip": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Data\\MenuContekst.cs",
               "RelativeToolTip": "Data\\MenuContekst.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABNAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:10:55.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Views\\Menu\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Menu\\Index.cshtml",
-              "ToolTip": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Views\\Menu\\Index.cshtml",
-              "RelativeToolTip": "Views\\Menu\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T11:28:01.756Z",
+              "WhenOpened": "2024-05-21T09:16:11.433Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Controllers\\Menu.cs",
               "RelativeDocumentMoniker": "Controllers\\Menu.cs",
               "ToolTip": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Controllers\\Menu.cs",
               "RelativeToolTip": "Controllers\\Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAADAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T11:27:00.752Z",
               "EditorCaption": ""
@@ -77,40 +62,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T10:01:28.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SastojakJela.cs",
               "DocumentMoniker": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Models\\SastojakJela.cs",
               "RelativeDocumentMoniker": "Models\\SastojakJela.cs",
               "ToolTip": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Models\\SastojakJela.cs",
               "RelativeToolTip": "Models\\SastojakJela.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:05:31.807Z",
+              "WhenOpened": "2024-05-21T09:56:14.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Sastojak.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Models\\Sastojak.cs",
-              "RelativeDocumentMoniker": "Models\\Sastojak.cs",
-              "ToolTip": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Models\\Sastojak.cs",
-              "RelativeToolTip": "Models\\Sastojak.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:04:05.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Jelo.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Models\\Jelo.cs",
-              "RelativeDocumentMoniker": "Models\\Jelo.cs",
-              "ToolTip": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Models\\Jelo.cs",
-              "RelativeToolTip": "Models\\Jelo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:03:10.049Z",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Views\\Menu\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Menu\\Details.cshtml",
+              "ToolTip": "C:\\Users\\AMD\\Desktop\\menu\\Menu\\Views\\Menu\\Details.cshtml",
+              "RelativeToolTip": "Views\\Menu\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T09:20:12.173Z",
               "EditorCaption": ""
             }
           ]

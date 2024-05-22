@@ -12,9 +12,30 @@ namespace Menu.Controllers
 		{
 			_context = context;
 		}
-		public async Task<IActionResult> Index()
+		public async Task<IActionResult> Index(string searchString)
 		{
-			return View(await _context.Jelo.ToListAsync());
+			var jelo = from j in _context.Jelo
+					   select j;
+			if (!string.IsNullOrEmpty(searchString))
+			{
+				jelo=jelo.Where(j=>j.Ime.Contains(searchString));
+                return View(await jelo.ToListAsync());
+            }
+
+			return View(await jelo.ToListAsync());
+		}
+		public async Task<IActionResult> Details(int? id)
+		{
+			var Jelo = await _context.Jelo.Include(di => di.SastojakJela)
+				.ThenInclude(s => s.Sastojak)
+				.FirstOrDefaultAsync(x => x.Id == id);
+			if(Jelo == null)
+			{
+				return NotFound();
+			}
+
+			return View(Jelo);
+
 		}
 	}
 }
